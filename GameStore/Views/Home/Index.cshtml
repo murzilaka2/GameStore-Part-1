@@ -3,13 +3,13 @@
 }
 @model IQueryable<Product>
 
-<h3 class="p-2 bg-bg-primary text-white text-center">Товары</h3>
+<h3 class="p-2 bg-primary text-white text-center">Товары</h3>
 <div class="container">
     <div class="row">
-        <div class="col font-weight-bold">Название</div>
-        <div class="col font-weight-bold">Категория</div>
-        <div class="col font-weight-bold">Закупочная цена</div>
-        <div class="col font-weight-bold">Розничная цена</div>
+        <div class="col fw-bold">Название</div>
+        <div class="col fw-bold">Категория</div>
+        <div class="col fw-bold">Закупочная цена</div>
+        <div class="col fw-bold">Розничная цена</div>
         <div class="col"></div>
     </div>
     <form asp-action="AddProduct" asp-controller="Home" method="post">
